@@ -6,3 +6,4 @@
 - The payload of the mqtt messages is described [here](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-send-additional-data#device-sends-data-payload-to-dps)
 - Remember to add the Baltimore CA-root certificate to your WiFiNINA module, otherwise your Arduino won't be able to properly identify the Azure servers. [Here](https://support.arduino.cc/hc/en-us/articles/360016119219-How-to-add-certificates-to-Wifi-Nina-Wifi-101-Modules-) is the official tutorial for that.
 - You can find the sketch to authorize the same device with X509 in my repos.
+- To generate SAS tokens, you can use my python script in the /SAS_token_generator folder.
